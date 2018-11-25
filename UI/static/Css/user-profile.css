@@ -1,0 +1,163 @@
+import url('https://fonts.googleapis.com/css?family=ubuntu:300,500,700');
+
+
+*{
+  margin:0;
+  padding:0;
+}
+
+
+body{
+  font-family: 'ubuntu', sans-serif;
+  background:#242539;
+
+
+}
+.wraper{
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+.container{
+  width:300px;
+  height:420px;
+  background: #fff;
+  border-radius: 10px;
+}
+.img-container{
+  width:100%;
+  height:40%;
+  position: relative;
+}
+.img-container img.banner-img{
+  width:100%;
+  height:100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+
+
+}
+.img-container img.profile-img{
+  position: absolute;
+  width:100px;
+  height: 100px;
+  border-radius: 50%;
+  bottom: -50px;
+  left: 100px;
+  border: 5px solid #fff;
+}
+.share{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+
+}
+.share ul {
+  list-style: none;
+}
+.share ul li{
+  width:35px;
+  height:35px;
+  margin-bottom: 5px;
+  border-radius: 50px;
+  border:2px solid #673bb7;
+  text-align: center;
+  cursor: pointer;
+  transition: all 1s ease;
+
+
+
+}
+.share ul li .fa{
+  line-height: 35px;
+  color: #673bb7;
+  transition: all 1s ease;
+
+}
+.share ul li:hover{
+  background: #673bb7;
+
+
+}
+.share ul li:hover .fa{
+  color: #fff;
+
+
+}
+.content{
+  width:100%;
+  height:40%;
+  box-sizing: border-box;
+  padding:60px 50px 50px;
+  position: relative;
+
+}
+.title{
+  text-align: center;
+  color:#673bb7;
+  padding-bottom: 35px;
+}
+.title p{
+  font-size: 28px;
+  font-weight: 700;
+
+}
+.title span{
+  font-weight: 300;
+  font-size: 13px;
+
+}
+.follow{
+  border: 2px solid #673bb7;
+  text-align: center;
+  border-radius: 50px;
+  padding-left: 10px;
+  color:#673bb7;
+  font-weight: 500;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 1s ease;
+
+}
+.follow:hover{
+  color:#fff;
+  background: #673bb7;
+}
+.profile-stats {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.stats {
+  position: relative;
+  margin-bottom: 20px;
+}
+p.stat-value {
+  margin-bottom: 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+.
+.btn {
+  padding: 12px 25px;
+  border-radius: 7px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 110px;
+  text-align: center;
+}
+.btn-primary {
+  background: #0facf3;
+  color: #fffffa;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
